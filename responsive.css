@@ -1,0 +1,37 @@
+
+
+
+@media only screen and (min-width:1001px) and (max-width:1440px) {
+    .main {
+        width: 100%
+    }
+
+}
+@media (min-width:1001) and (max-width:1440px) {
+    .main {
+        width: 75%
+    }
+    .single-menu {
+       flex-direction: column;
+    }
+    .single-menu img {
+        margin-bottom: 25px;
+    }
+}
+@media (max-width: 670px){
+    .main {
+        width: 75%
+    }
+    .menu-column {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .single-menu {
+        flex-direction: column;
+    }
+    .single-menu img {
+        margin-bottom: 25px;
+    }
+}
+
+
